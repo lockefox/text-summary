@@ -37,3 +37,5 @@ TODO
 .. |docs| image:: https://readthedocs.org/projects/text-summary/badge/?version=latest
     :target: https://text-summary.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
+.. |release| image:: https://badge.fury.io/py/text-summary.svg
+    :target: https://badge.fury.io/py/text-summary
