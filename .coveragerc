@@ -1,0 +1,8 @@
+[report]
+    omit = 
+        summary/_version.py
+        summary/__init__.py
+        summary/exceptions.py
+
+[paths]
+    source = summary
