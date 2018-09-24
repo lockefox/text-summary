@@ -4,6 +4,8 @@
 text-summary
 ============
 
+|build| |coverage| |docs| |release|
+
 Summarize blocks of text using NLTK tools
 
 Getting Started
@@ -28,3 +30,10 @@ TODO
 
 .. |Show Logo| image:: http://dl.eveprosper.com/podcast/logo-colour-17_sm2.png
     :target: http://eveprosper.com
+.. |build| image:: https://travis-ci.org/lockefox/text-summary.svg?branch=master
+    :target: https://travis-ci.org/lockefox/text-summary
+.. |coverage| image:: https://coveralls.io/repos/github/lockefox/text-summary/badge.svg?branch=master
+    :target: https://coveralls.io/github/lockefox/text-summary?branch=master
+.. |docs| image:: https://readthedocs.org/projects/text-summary/badge/?version=latest
+    :target: https://text-summary.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
