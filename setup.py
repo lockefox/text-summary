@@ -43,7 +43,7 @@ class PyTest(TestCommand):
         self.pytest_args = [
             'tests',
             '-rx',
-            '--cov={}'.format(__library_name__),
+            f'--cov={__library_name__}',
             '--cov-report=term-missing',
             '--cov-config=.coveragerc',
         ]
@@ -64,9 +64,8 @@ setup(
     name=__package_name__,
     author='John Purcell',
     author_email='jpurcell.ee@gmail.com',
-    url='https://github.com/lockefox/{}'.format(__package_name__),
-    download_url='https://github.com/lockefox/{}/tarball/v{}'\
-        .format(__package_name__, get_version(__library_name__)),
+    url=f'https://github.com/lockefox/{__package_name__}',
+    download_url=f'https://github.com/lockefox/{__package_name__}/tarball/v{get_version(__library_name__)}',
     version=get_version(__library_name__),
     license='MIT',
     classifiers=[
@@ -81,10 +80,10 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'summarize={}.summarize:run_main'.format(__library_name__),
+            f'summarize={__library_name__}.summarize:run_main',
         ]
     },
-    python_requires='>=3.5',
+    python_requires='>=3.6',
     install_requires=[
         'ProsperCommon',
         'plumbum',
