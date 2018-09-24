@@ -64,7 +64,7 @@ setup(
     name=__package_name__,
     author='John Purcell',
     author_email='jpurcell.ee@gmail.com',
-    url=f'https://github.com/lockefox/{__package_name__}',
+    url='https://github.com/lockefox/{}'.format(__package_name__),
     download_url='https://github.com/lockefox/{}/tarball/v{}'\
         .format(__package_name__, get_version(__library_name__)),
     version=get_version(__library_name__),
